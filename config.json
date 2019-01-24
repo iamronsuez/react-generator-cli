@@ -1,0 +1,38 @@
+{
+  "pages": {
+    "Contact": {
+      "name": "Contact"
+    },
+    "Root": {
+      "path": "/"
+    },
+    "Auth": {
+      "path": "auth",
+      "routes": [
+        {
+          "name": "Login"
+        },
+        {
+          "name": "Signup"
+        },
+        {
+          "name": "RecoverPassword"
+        }
+      ]
+    },
+    "App": {
+      "path": "/",
+      "routes": [
+        {
+          "name": "Orders"
+        },
+        {
+          "name": "Account"
+        },
+        {
+          "name": "Settigns"
+        }
+      ]
+    }
+  }
+}
