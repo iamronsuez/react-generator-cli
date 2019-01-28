@@ -25,8 +25,7 @@
     "webpack-cli": "^3.2.1",
     "babel-preset-env": "^1.7.0"
   },
-  "rsGeneratorConfig": {
-    "rootDirName": "app",
-    "cssExtensionName": "less"
+  "bin": {
+    "run": "build/main.js"
   }
 }
