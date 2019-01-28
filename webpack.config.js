@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 module.exports = {
+  mode: 'production',
   target: 'node',
   entry: './lib/index.js',
   output: {
@@ -19,5 +20,8 @@ module.exports = {
   stats: {
     colors: true
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  plugins: [
+    new webpack.BannerPlugin({ banner: "#!/usr/bin/env node", raw: true })
+  ]
 };
