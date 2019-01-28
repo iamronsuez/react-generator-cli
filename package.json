@@ -26,6 +26,7 @@
     "babel-preset-env": "^1.7.0"
   },
   "rsGeneratorConfig": {
-    "rootDirName": "app/dir"
+    "rootDirName": "app",
+    "cssExtensionName": "less"
   }
 }
