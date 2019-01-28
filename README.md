@@ -1,8 +1,8 @@
 # app-cli
 ### React-Scaffold
 ----
-##Motivation
-> TODO.
+## Motivation
+> Basically write less scaffold code when adding new features.
 
 ----
 ## utilities
@@ -11,9 +11,9 @@
 
 ----
 ## roadmap
-1. Create Pages Scaffold
-2. Create Components Scaffold
-3. Create Configuration File
+1. Create Pages Scaffold script
+2. Create Components Scaffold script
+3. Attach / Read Configuration settings from package.json
 4. Add tests
 5. Add documentation
 ----
