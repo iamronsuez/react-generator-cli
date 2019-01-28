@@ -20,8 +20,5 @@ module.exports = {
   stats: {
     colors: true
   },
-  devtool: 'source-map',
-  plugins: [
-    new webpack.BannerPlugin({ banner: "#!/usr/bin/env node", raw: true })
-  ]
+  devtool: 'source-map'
 };
