@@ -2,10 +2,9 @@
   "name": "app-generator-cli",
   "version": "1.0.3",
   "description": "React Scaffold Generator",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack",
-    "generate": "node ./lib/index.js"
   },
   "author": "Ronald Suez <ingrsuezinfo@gmail.com>",
   "license": "MIT",
@@ -25,6 +24,6 @@
     "babel-preset-env": "^1.7.0"
   },
   "bin": {
-    "generate": "lib/index.js"
+    "app-generator-cli": "lib/index.js"
   }
 }
